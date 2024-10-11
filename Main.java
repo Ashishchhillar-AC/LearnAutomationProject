@@ -23,5 +23,7 @@ public class Main {
         System.out.println();
         System.out.printf("%d X %d =%d ",table, 10, table*10);
         System.out.println();
+        System.out.printf("%d X %d =%d ",table, 11, table*11);
+        System.out.println();
      }
     }
