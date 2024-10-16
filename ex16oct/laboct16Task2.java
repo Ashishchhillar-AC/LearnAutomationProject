@@ -11,5 +11,6 @@ public class laboct16Task2 {
         int b = scanner.nextInt();
         int result =(a>b) ? a:b;
         System.out.println("The Maximum number is " +result);
+        scanner.close();
     }
 }

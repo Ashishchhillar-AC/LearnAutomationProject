@@ -14,6 +14,7 @@ public class Lab16octTask1 {
         System.out.println("Name of Employee " +name);
         System.out.println("Age of Employee  " +age);
         System.out.println("Salary of Employee " +Salary);
+        scanner.close();
 
     }
 }
