@@ -30,5 +30,31 @@ public class lab123 {
         System.out.println(s4.charAt(4));
         System.out.println(s4.charAt(5));
 
+        String s5= "Ashish  ";
+        System.out.println(s5);
+        System.out.println(s5.trim());
+        System.out.println(s5.indexOf("h"));
+
+        String s6="AshishChhillar";
+        System.out.println(s6.indexOf("c"));
+        System.out.println(s6.indexOf("i"));
+        System.out.println(s6.contains("A"));
+        System.out.println(s6.contains("n"));
+
+        String s7 = "Ashish";
+        System.out.println(s7.lastIndexOf('h'));
+
+        String s8="Ashish";
+        System.out.println(s8.replace('A','k'));
+        String original="Banana";
+        String result1= original.replace('a','o');
+        System.out.println(result1);
+
+        String original1="Hello123 World456!";
+        String result2=original1.replaceAll("\\d+", "");
+        System.out.println(result2);
+
+
+
     }
 }
